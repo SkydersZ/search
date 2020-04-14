@@ -11,10 +11,10 @@ TP: Un moteur de recherche doit être réalisé.
 
 #### Outils Utilisés
 
-**Application**: NodeJS
+**Application**: [NodeJS](https://nodejs.org/en/)
 
-**Server**: Nginx
+**Server**: [Nginx](https://www.nginx.com/)
 
-**Base de données**: Elastic Search
+**Base de données**: [Elastic Search](https://www.elastic.co/fr/elasticsearch)
 
-**Cache**: Memcached
+**Cache**: [Memcached](https://memcached.org/)
