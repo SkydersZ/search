@@ -2,8 +2,16 @@
 
 ## Sommaire
 
+
+* [Collaborateurs](#Collaborateurs)
 * [Consignes](#consignes)
   * [Outils Utilisés](#outils-utilisés)
+
+### Collaborateurs
+
+* Emilie GOUGEON
+* Sofiane BOUCARD
+* Mathieu KEROMNES
 
 ### Consignes
 
