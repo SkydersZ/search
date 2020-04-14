@@ -2,8 +2,8 @@
 
 ## Sommaire
 
-1. [Consignes](#consignes)
-  1. [Outils Utilisés](#outils-utilisés)
+* [Consignes](#consignes)
+  * [Outils Utilisés](#outils-utilisés)
 
 ### Consignes
 
