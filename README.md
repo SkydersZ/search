@@ -77,11 +77,23 @@ Et voilà! Le projet est installé sur votre machine et fonctionne!
 Voici un petit récapitulatif des commandes git les plus utiles et utilisés
 
 ```bash
+git add nom_fichier #Permet d'indexer le fichier
+
 git branch nom_branche #Permet de créer une branche en local
 
 git branch nom_branche -D #Permet de supprimer une branche en local
 
+git branch -m nouveau_nom #Permet de modifier le nom de la branche courante | -M sous Windows
+
+git branch -m  ancien_nom  nouveau_nom #Permet de modifier le nom d'une branche non courante | -M sous Windows
+
+git branch #Liste toutes les branches en local
+
+git branch -r #Liste toutes les branches distantes
+
 git checkout nom_branch #Permet de changer de branche
+
+git commit #Permet de commiter les fichiers indexés
 
 git pull #Permet de récupérer les modifications d'une branche distante vers la branche local
 
