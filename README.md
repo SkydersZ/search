@@ -29,7 +29,7 @@ Cache: [Memcached](https://memcached.org/)
 
 ### Installation du Projet
 
-Pour installer le projet vous allez avoir au préalable d'installer:
+Pour installer le projet, vous allez avoir besoin au préalable d'installer:
 
 * NodeJS &rarr; 12.16.2
 
