@@ -6,6 +6,7 @@
 * [Consignes](#consignes)
   * [Outils Utilisés](#outils-utilisés)
 * [Installation du Projet](#installation-du-projet)
+* [Commandes git](#commandes-git)
 
 ### Collaborateurs
 
