@@ -70,3 +70,23 @@ _Voici ce que devrait vous afficher l'invite de commande._
 Normalement si cela fonctionne correctement, en vous connectant à l'adresse suivante [127.0.0.1](http://127.0.0.1:3000), vous devriez avoir un message affiché "Welcome to Express".
 
 Et voilà! Le projet est installé sur votre machine et fonctionne!
+
+### Commandes git
+
+Voici un petit récapitulatif des commandes git les plus utiles et utilisés
+
+```bash
+git branch nom_branche #Permet de créer une branche en local
+
+git branch nom_branche -D #Permet de supprimer une branche en local
+
+git checkout nom_branch #Permet de changer de branche
+
+git pull #Permet de récupérer les modifications d'une branche distante vers la branche local
+
+git push #Permet de pousser les modifications d'une branche local vers une branche distante
+
+git merge #Permet de fusionner deux branche
+
+git rebase nom_branche  #Permet de récupérer tous les commits d'une branche et les intégrer à la branche courante. La différence avec un merge basique est que les commits que vous avez réalisés sur votre branche seront les premiers commits (les plus récents).
+```
