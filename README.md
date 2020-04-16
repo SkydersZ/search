@@ -6,6 +6,7 @@
 * [Consignes](#consignes)
   * [Outils Utilisés](#outils-utilisés)
 * [Installation du Projet](#installation-du-projet)
+* [Installation de Memcached](#installation-de-memcached)
 * [Commandes git](#commandes-git)
 
 ### Collaborateurs
@@ -72,9 +73,17 @@ Normalement si cela fonctionne correctement, en vous connectant à l'adresse sui
 
 Et voilà! Le projet est installé sur votre machine et fonctionne!
 
-### Commandes git
+### Installation de Memcached
 
-Voici un petit récapitulatif des commandes git les plus utiles et utilisés
+Pour installer **Memcached**, vous aurez besoin de `NPM` et de NodeJS.
+
+Ouvrez une invite de commande et rentrez y ceci: `npm install memcached`
+
+Cette commande va vous installer memcached sur votre projet NodeJS.
+
+Et voilà! Memcached est maintenant installé sur votre ordinateur.
+
+Si vous voulez plus d'informations concernant sont utilisation, [veuillez voir ce lien](https://github.com/3rd-Eden/memcached#readme)
 
 ```bash
 git add nom_fichier #Permet d'indexer le fichier
