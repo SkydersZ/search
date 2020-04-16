@@ -72,6 +72,16 @@ Normalement si cela fonctionne correctement, en vous connectant à l'adresse sui
 
 Et voilà! Le projet est installé sur votre machine et fonctionne!
 
+### Installation de Memcached
+
+Pour installer **Memcached**, vous aurez besoin de `NPM` et de NodeJS.
+
+Ouvrez une invite de commande et rentrez y ceci: `npm install memcached`
+
+Cette commande va vous installer memcached sur votre projet NodeJS.
+
+Et voilà! Memcached est maintenant installé sur votre ordinateur.
+
 ### Commandes git
 
 Voici un petit récapitulatif des commandes git les plus utiles et utilisés

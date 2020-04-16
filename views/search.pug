@@ -1,0 +1,16 @@
+- let list = numarray
+
+input(
+  type='text'
+  name='searchvalue'
+  placeholder='Rechercher..'
+  onkeyup="searchfile(list)"
+  id="search-bar"
+ )
+
+div(id="search-content")
+    each item in list
+      p= item
+
+script
+  include scripts/search_script.js
