@@ -85,6 +85,10 @@ Et voilà! Memcached est maintenant installé sur votre ordinateur.
 
 Si vous voulez plus d'informations concernant sont utilisation, [veuillez voir ce lien](https://github.com/3rd-Eden/memcached#readme)
 
+### Commandes Git
+
+Voici un petit récapitulatif des commandes git les plus utiles et utilisés
+
 ```bash
 git add nom_fichier #Permet d'indexer le fichier
 
