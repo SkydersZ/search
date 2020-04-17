@@ -7,6 +7,9 @@
   * [Outils Utilisés](#outils-utilisés)
 * [Installation du Projet](#installation-du-projet)
 * [Installation de Memcached](#installation-de-memcached)
+  * [Clear Linux](#clear-linux)
+  * [Windows](#windows)
+  * [NPM MemCached](#npm-memcached)
 * [Commandes git](#commandes-git)
 
 ### Collaborateurs
@@ -75,9 +78,37 @@ Et voilà! Le projet est installé sur votre machine et fonctionne!
 
 ### Installation de Memcached
 
-Pour installer **Memcached**, vous aurez besoin de `NPM` et de NodeJS.
+Pour installer **Memcached**, vous aurez besoin de `NPM` et de NodeJS mais aussi de:
+**Memcached 1.6.5** (Pour Clear linux)
+**Memcached 1.4.4** (Pour windows)
 
-Ouvrez une invite de commande et rentrez y ceci: `npm install memcached`
+#### Clear Linux
+
+Pour installer Memcached sous `Clear linux` il vous faut exécuter les commandes suivantes:
+
+`sudo swupd bundle-add memcached`
+
+on vérifie que Memcached c'est bien installé en faisant `memcached -V` 
+
+puis on lance le service: `sudo systemctl start memcached`.
+
+### Windows
+
+Pour installer Memcached sous `Windows` il vous faut télécharger le zip [depuis ce lien](http://downloads.northscale.com/memcached-win64-1.4.4-14.zip) &rarr; Windows 64bits
+
+Ensuite dezipez l'archive et lancez une invite de commande (**en tant qu'administrateur**), il faut être situé dans le répertoire de `memcached.exe` (par ex: `c:\memcached\`) pour exécuter la commande `c:\memcached\memcached.exe -d install`.
+
+Pour lancer memcached(invite de commande):
+
+`c:\memcached\memcached.exe -d start`
+
+Pour arrêter memcached(invite de commande):
+
+`c:\memcached\memcached.exe -d stop`
+
+#### NPM MemCached
+
+Ensuite allez dans le dossier du projet et toujours avec l'invite de commande rentrez y ceci: `npm install memcached`
 
 Cette commande va vous installer memcached sur votre projet NodeJS.
 
