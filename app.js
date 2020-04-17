@@ -6,6 +6,7 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const client = require('./instances/elasticsearch');
 
 const app = express();
 
@@ -36,6 +37,14 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+// Check if the server is running
+client.ping({
+  requestTimeout: 30000,
+}, function(err, res) {
+  if (err) console.error(err.message);
+  else console.log('State of connection to elasticsearch: ', res);
 });
 
 module.exports = app;
