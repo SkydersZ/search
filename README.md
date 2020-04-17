@@ -92,6 +92,8 @@ on vérifie que Memcached c'est bien installé en faisant `memcached -V`
 
 puis on lance le service: `sudo systemctl start memcached`.
 
+Pour stoper le service: `sudo systemctl stop memcached`.
+
 #### Windows
 
 Pour installer Memcached sous `Windows` il vous faut télécharger le zip [depuis ce lien](http://downloads.northscale.com/memcached-win64-1.4.4-14.zip) &rarr; Windows 64bits
